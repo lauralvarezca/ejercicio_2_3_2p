@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#B8A4DC"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/detalle"
+        android:layout_width="381dp"
+        android:layout_height="54dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="14dp"
+        android:layout_marginEnd="16dp"
+        android:paddingLeft="10dp"
+        android:text="Detalles de Imagen"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:autoSizeTextType="uniform" />
+
+    <ImageView
+        android:id="@+id/imagenvector"
+        android:layout_width="284dp"
+        android:layout_height="262dp"
+        android:layout_below="@id/detalle"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="65dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="61dp"
+        android:foregroundGravity="center"
+        android:scaleType="centerCrop"
+        android:src="@drawable/imagen" />
+
+</RelativeLayout>
